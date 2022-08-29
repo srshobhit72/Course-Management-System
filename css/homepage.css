@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 243, 243);
+}
+
+header{
+    background-color: rgb(43, 77, 116);
+    padding-top: 50px;
+    padding-left: 12%;
+    color: rgb(205, 224, 224);
+}
+
+.semester{
+    position: absolute;
+    right: 12%;
+    top: 150px;
+}
+
+#sem{
+    width: 50px;
+    padding: 5px;
+}
+
+.logout_btn{
+    position: absolute;
+    right: 12%;
+    top: 80px;
+}
+.logout_btn button{
+    padding: 6px;
+    background-color: rgb(204, 77, 77);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logout_btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main .offered, .main .registered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+#add_submit_btn, #drop_submit_btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: rgb(214, 235, 235);
+    background-color: rgb(43, 77, 116);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr th{
+    background-color: rgb(43, 77, 116);
+    color: rgb(205, 224, 224);
+    font-weight: 100;
+}
+table tr td{
+    background-color: rgb(214, 235, 235);
+    font-size: 15px;
+}
+table tr th, td{
+    padding: 5px;
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr .serial_no, table tr .checkbox_col{
+    width: 50px;
+}
+table tr .code_col{
+    width: 120px;
+}
+
+

@@ -1,0 +1,106 @@
+
+
+.background {
+    vertical-align: middle;
+    background-image: url("../images/h_university.jpg");
+    background-size: cover;
+    font-family: "Roboto";
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
+
+.container {
+    background-color: rgba(68, 65, 65, 0.7);
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+	
+
+.container h1{
+    color: rgb(219, 211, 211);
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    width: 100px;
+    font-size: 17px;
+    border-style : ridge;
+    border-color: black;
+    color: black;
+    background-color: cornsilk;
+}
+
+.loginbox {
+    background-color: #d9d9d9;
+    margin: 20px;
+    width: 32%;
+    height: 40vh;
+    margin-top: 40px;
+}
+
+.registerbox {
+    background-color: #d9d9d9;
+    margin: 20px;
+    width: 32%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header {
+    background-color: #e3e3e3;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.forms {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: -50px;
+}
+
+.loginbox input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.registerbox input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.dropdown {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+.vl {
+  border-left: 2px solid #e3e3e3;
+  height: 500px;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#reg_btn{
+    position: relative;
+    bottom: 35px;
+}
+
+.variablecolor{
+    color: red;
+}
+
+
